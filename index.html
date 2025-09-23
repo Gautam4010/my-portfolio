@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>origianal site</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css" />
+
+    <style></style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+        <!-- Logo -->
+        <a class="navbar-brand" href="#">MyPortfolio</a>
+
+        <!-- Hamburger -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Links -->
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#home"><i class="fas fa-home"></i> Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about"><i class="fas fa-user"></i> About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills"><i class="fas fa-laptop-code"></i> Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects"><i class="fas fa-project-diagram"></i> Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services"><i class="fas fa-cogs"></i> Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Feedback"><i class="fas fa-comment-dots"></i> Feedback</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact"><i class="fas fa-envelope"></i> Contact</a>
+          </li>
+        </ul>
+        
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <div class="row align-items-center">
+          <!-- Left Text -->
+          <div class="col-lg-6 col-md-6 hero-text">
+            <h1>Hello, I'm Gautam 👋</h1>
+            <p>
+              A passionate Web Developer who loves building stylish, modern, and
+              responsive websites.
+            </p>
+            <a href="#projects" class="btn-neon">See My Work</a>
+          </div>
+
+          <!-- Right Image -->
+          <div class="col-lg-6 col-md-6 text-center">
+            <div class="hero-img">
+              <img src="profile.jpg" alt="Profile Photo" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2 class="neon-text">👨‍💻 About Me</h2>
+      <div class="about-container">
+        <div class="about-text">
+          <p>
+            Hello! I am <strong>Gautam</strong>, a passionate web developer. I
+            enjoy creating modern and responsive websites using the latest
+            technologies. I love learning new skills and continuously improving
+            my coding abilities.
+          </p>
+          <p>
+            My main focus is on front-end development, but I am also exploring
+            backend and full-stack development to become a versatile developer.
+          </p>
+        </div>
+
+        <div class="skills">
+          <div class="skill">
+            <div class="skill-name">HTML</div>
+            <div class="progress">
+              <div class="progress-bar" style="width: 90%">90%</div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill-name">CSS</div>
+            <div class="progress">
+              <div class="progress-bar" style="width: 85%">85%</div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill-name">Bootstrap</div>
+            <div class="progress">
+              <div class="progress-bar" style="width: 80%">80%</div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill-name">JavaScript</div>
+            <div class="progress">
+              <div class="progress-bar" style="width: 75%">75%</div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill-name">Python</div>
+            <div class="progress">
+              <div class="progress-bar" style="width: 70%">20%%</div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill-name">Java</div>
+            <div class="progress">
+              <div class="progress-bar" style="width: 70%">20%%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="container py-5">
+        <h2 class="text-center mb-5" style="color: #00ffcc">🚀 My Projects</h2>
+        <div class="row g-4">
+          <!-- Project 1 -->
+          <div class="col-lg-6 col-md-12">
+            <div class="project-card">
+              <div class="card-header">
+                <img src="restorant.jpeg" alt="Restaurant Project" />
+                <i class="arrow bi bi-chevron-down"></i>
+              </div>
+              <div class="card-body-wrapper">
+                <div class="card-body">
+                  <p>
+                    This is a responsive restaurant website built with modern UI
+                    and smooth navigation.
+                  </p>
+                  <div class="tech-stack">
+                    <span class="tech-badge">HTML</span>
+                    <span class="tech-badge">CSS</span>
+                    <span class="tech-badge">Bootstrap</span>
+                  </div>
+                  <a
+                    href="https://restorant121.netlify.app/"
+                    target="_blank"
+                    class="btn-visit"
+                    >🔗 Open Website</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="col-lg-6 col-md-12">
+            <div class="project-card">
+              <div class="card-header">
+                <img src="tent.jpeg" alt="Portfolio Project" />
+                <i class="arrow bi bi-chevron-down"></i>
+              </div>
+              <div class="card-body-wrapper">
+                <div class="card-body">
+                  <p>
+                    This is the tent house website. Website is only available in
+                    Desktop mode.
+                  </p>
+                  <div class="tech-stack">
+                    <span class="tech-badge">HTML</span>
+                    <span class="tech-badge">CSS</span>
+                  </div>
+                  <a
+                    href="https://gautam4010.github.io/tent/index.html"
+                    target="_blank"
+                    class="btn-visit"
+                    >🔗 Open Website</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Project 2 -->
+          <div class="col-lg-6 col-md-12">
+            <div class="project-card">
+              <div class="card-header">
+                <img src="gpa.jpeg" alt="Portfolio Project" />
+                <i class="arrow bi bi-chevron-down"></i>
+              </div>
+              <div class="card-body-wrapper">
+                <div class="card-body">
+                  <p>clone of Government polytechnic Adityapur</p>
+                  <div class="tech-stack">
+                    <span class="tech-badge">HTML</span>
+                    <span class="tech-badge">CSS</span>
+                    <span class="tech-badge">Bootstrap</span>
+                  </div>
+                  <a
+                    href="https://gautam4010.github.io/gpa-clone/"
+                    target="_blank"
+                    class="btn-visit"
+                    >🔗 Open Website</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Project 2 -->
+          <div class="col-lg-6 col-md-12">
+            <div class="project-card">
+              <div class="card-header">
+                <img
+                  src="https://picsum.photos/600/400?portfolio"
+                  alt="Portfolio Project"
+                />
+                <i class="arrow bi bi-chevron-down"></i>
+              </div>
+              <div class="card-body-wrapper">
+                <div class="card-body">
+                  <p>
+                    My adobe xd clone website showcasing my skills,
+                    projects, and contact details.
+                  </p>
+                  <div class="tech-stack">
+                    <span class="tech-badge">HTML</span>
+                    <span class="tech-badge">CSS</span>
+                    <span class="tech-badge">Bootstrap</span>
+                    
+                  </div>
+                  <a
+                    href="https://gautam4010.github.io/petra/index.html"
+                    target="_blank"
+                    class="btn-visit"
+                    >🔗 Open Website</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2 class="neon-text mb-4">📞 Contact Me</h2>
+      <p>Feel free to reach out via any of these platforms!</p>
+      <div class="d-flex justify-content-center flex-wrap">
+        <!-- Email -->
+        <a
+          href="mailto:yourname@example.com"
+          class="contact-icon"
+          target="_blank"
+          title="Email"
+        >
+          <i class="bi bi-envelope-fill"></i>
+        </a>
+
+        <!-- WhatsApp -->
+        <a
+          href="https://wa.me/919876543210"
+          class="contact-icon"
+          target="_blank"
+          title="WhatsApp"
+        >
+          <i class="bi bi-whatsapp"></i>
+        </a>
+
+        <!-- LinkedIn -->
+        <a
+          href="https://www.linkedin.com/in/yourprofile"
+          class="contact-icon"
+          target="_blank"
+          title="LinkedIn"
+        >
+          <i class="bi bi-linkedin"></i>
+        </a>
+
+        <!-- GitHub -->
+        <a
+          href="https://github.com/yourusername"
+          class="contact-icon"
+          target="_blank"
+          title="GitHub"
+        >
+          <i class="bi bi-github"></i>
+        </a>
+
+        <!-- Facebook -->
+        <a
+          href="https://www.facebook.com/yourprofile"
+          class="contact-icon"
+          target="_blank"
+          title="Facebook"
+        >
+          <i class="bi bi-facebook"></i>
+        </a>
+
+        <!-- Instagram -->
+        <a
+          href="https://www.instagram.com/yourprofile"
+          class="contact-icon"
+          target="_blank"
+          title="Instagram"
+        >
+          <i class="bi bi-instagram"></i>
+        </a>
+      </div>
+    </section>
+    <section id="services">
+      <h2 class="neon-text">💻 My Services</h2>
+      <p>
+        Hire me to build your website or design a modern, responsive web
+        presence!
+      </p>
+
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-4">
+            <div class="service-card">
+              <div class="service-icon">💻</div>
+              <h4>Website Development</h4>
+              <p>
+                I create responsive, modern websites using HTML, CSS, Bootstrap,
+                and JavaScript tailored to your needs.
+              </p>
+              <button>Hire Me</button>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="service-card">
+              <div class="service-icon">🎨</div>
+              <h4>Website Design</h4>
+              <p>
+                Professional and attractive UI/UX designs for websites, ensuring
+                a great user experience on all devices.
+              </p>
+              <button>Hire Me</button>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="service-card">
+              <div class="service-icon">⚡</div>
+              <h4>Responsive Web Apps</h4>
+              <p>
+                Developing responsive web applications that look perfect on
+                desktop, tablet, and mobile devices.
+              </p>
+              <button>Hire Me</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="feedback">
+      <div class="feedback-card">
+        <h2 class="neon-text mb-4 text-center">📝 Feedback</h2>
+        <p class="text-center">
+          We would love to hear your thoughts! Please leave your feedback below.
+        </p>
+
+        <form id="feedbackForm">
+          <div class="mb-3">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Your Name" required />
+          </div>
+          <div class="mb-3">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Your Email" required />
+          </div>
+          <div class="mb-3">
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              rows="5"
+              placeholder="Your Feedback"
+              required
+            ></textarea>
+          </div>
+          <button type="submit">Submit Feedback</button>
+        </form>
+
+        <div id="thankYou">Thank you for your feedback! ✨</div>
+      </div>
+    </section>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+  </body>
+</html>
